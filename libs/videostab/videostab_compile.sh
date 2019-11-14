@@ -1,0 +1,1 @@
+gcc -o videostab -L/usr/local/lib -I/usr/local/include videostab.cpp -lopencv_videostab -lopencv_features2d -lopencv_highgui -lopencv_videoio -lopencv_core -lstdc++

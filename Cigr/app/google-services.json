@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "237825655874",
+    "firebase_url": "https://cigr-62558.firebaseio.com",
+    "project_id": "cigr-62558",
+    "storage_bucket": "cigr-62558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237825655874:android:625b7ceba4bc1969",
+        "android_client_info": {
+          "package_name": "com.smadec.maxx.cigr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237825655874-7so75ar0ma86asucdcs5mjvtdaggcs2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpFw7EAzleJ_v4YLWcWHv5wr7TcopULAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

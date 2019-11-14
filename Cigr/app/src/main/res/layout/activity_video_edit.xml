@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smadec.maxx.cigr.VideoEditActivity">
+
+    <FrameLayout
+        android:id="@+id/LayoutVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextureView
+            android:id="@+id/TextureView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_clear"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickClear"
+            android:text="@string/button_clear" />
+
+        <Button
+            android:id="@+id/button_next"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickNext"
+            android:text="@string/button_next" />
+    </LinearLayout>
+
+    <com.polyak.iconswitch.IconSwitch
+        android:id="@+id/icon_switch_freeze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="10dp"
+        app:isw_active_tint_icon_left="#fff"
+        app:isw_active_tint_icon_right="#fff"
+        app:isw_default_selection="right"
+        app:isw_icon_left="@drawable/ic_freeze"
+        app:isw_icon_right="@drawable/ic_unfreeze"
+        app:isw_inactive_tint_icon_left="#fff"
+        app:isw_inactive_tint_icon_right="#fff" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="100dp"
+        android:background="@drawable/round_button"
+        android:onClick="onClickBrush"
+        android:tint="#ffffff"
+        app:srcCompat="@drawable/ic_brush_black_24dp" />
+
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:id="@+id/mySeekBarWrapper"
+        android:layout_width="36dp"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="60dp"
+        android:layout_marginStart="100dp"
+        android:background="@drawable/round_corners"
+        android:visibility="invisible">
+
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270" />
+
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-9720148464010296/3451699041"></com.google.android.gms.ads.AdView>
+
+    <FrameLayout
+        android:id="@+id/LayoutTutorialVideoEdit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSemiTransparentDark"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="20pt"
+            android:text="@string/text_tutorial_video_edit"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageFingerTutorialVideoEdit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10pt"
+            android:scaleType="fitXY"
+            android:tint="@android:color/white"
+            app:srcCompat="@drawable/ic_finger" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="80dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="onClickTutorialClose"
+            android:text="@string/close_button" />
+
+    </FrameLayout>
+
+</FrameLayout>

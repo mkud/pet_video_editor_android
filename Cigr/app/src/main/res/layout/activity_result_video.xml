@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smadec.maxx.cigr.ResultVideoActivity">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-9720148464010296/3451699041"></com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_send_to_insta"
+            android:onClick="onShare"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_share_black_24dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_send_to_insta"
+            android:onClick="onSaveToInsta"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_instagram" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_send_to_facebook"
+            android:onClick="onSaveToFacebook"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_facebook" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_save_to_galery"
+            android:onClick="onSaveToGalery"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_storage" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarMakeResultVideo"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

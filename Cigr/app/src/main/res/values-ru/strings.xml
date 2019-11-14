@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cigr</string>
+    <string name="dialog_cannot_stabilize_header">Внимание</string>
+    <string name="dialog_cannot_stabilize_body">Не получается стабилизировать изображение.\nВозможно вы двигали камерой.\nПожалуйста, попробуйте еще раз.</string>
+    <string name="toast_cannot_focus">Не получается сфокусировать изображение и получить красивую картинку.\nПожалуйста, попробуйте еще раз.</string>
+    <string name="toast_video_to_short">Минимальная длительность записанного видео - 3 секунды.\nПожалуйста, попробуйте еще раз.</string>
+    <string name="press_back_again">Нажимите еще раз для выхода.</string>
+    <string name="button_save_to_galery">Кнопка записи получившегося \"живого фото\" в галерею.</string>
+    <string name="stabilize_exiting">Выходим</string>
+    <string name="dialog_permission_rationale_camera_text">Доступ к камере требуется для того, чтобы сделать \"живое фото\". Если вы не предоставите это разрешение, то вы не сможете мользоваться приложением.</string>
+    <string name="OK_button">OK</string>
+    <string name="exit_button">Выход</string>
+    <string name="reask_button">Запросить еще раз</string>
+    <string name="toast_result_video_seem_file">\"Живое фото\" уже было сохранено в галерее</string>
+    <string name="toast_result_video_error">Не вышло сохранить \"живое фото\" в галерее</string>
+    <string name="toast_result_video_succesfull">\"Живое фото\" было успешно сохранено в галерее</string>
+    <string name="tutorialText4">4. Сохраните результат в галерее, Facebook или Instagram</string>
+    <string name="tutorialText3">3. Что на фото должно двигаться?</string>
+    <string name="textNotTutorial2">Стабилизируется…\nПожалуйста подождите.</string>
+    <string name="tutorialText2">2. Стабилизируем видео.</string>
+    <string name="tutorialText1">1. Запишите короткое видео(>3сек).</string>
+    <string name="button_send_to_facebook">Кнопка для отправки \"живого фото\" в Facebook</string>
+    <string name="button_for_change_camera_front_and_back">Кнопка для переключения на фронтальную камеру и обратно.</string>
+    <string name="button_clear">Очистить</string>
+    <string name="button_send_to_insta">Кнопка для отправки \"живого фото\" в Instagram.</string>
+    <string name="button_next">Далее</string>
+    <string name="button_back">Назад</string>
+    <string name="dialog_permission_rationale_file_text">Доступ к внутренней памяти телефона необходим, чтобы сохранить результаты работы приложения в галерею. Вы можете сразу отправить видео в социальные сети. Для этого предоставление доступа не требуется.</string>
+    <string name="dialog_permission_wrong_file_text">Доступ к внутренней памяти требуется, чтобы сохранить \"живое фото\" в галерею. Вы не предоставили этого разрешения</string>
+    <string name="dialog_permission_wrong_camera_text">Доступ к камере требуется, чтобы сделать \"живое фото\". Без этого разрешения работа с приложением невозможна.</string>
+    <string name="begin_button">Начать</string>
+
+    <string name="tutorial_screenshot_1_context_description">Скриншот 1 экрана. Запись видео.</string>
+    <string name="tutorial_screenshot_2_context_description">Скриншот 2 экрана. Стабилизируется итоговое видео.</string>
+    <string name="tutorial_screenshot_3_context_description">Скриншот 3 экрана. Редактируется живое фото.</string>
+    <string name="tutorial_screenshot_4_context_description">Скриншот 4 экрана. Делимся видео в соцсетях.</string>
+    <string name="text_tutorial_video_edit">Нарисуйте те части, которые должны двигаться</string>
+    <string name="close_button">Закрыть</string>
+    <string name="dialog_ask_rewiew_play_market">Вам понравилось мое приложение?\nМожете его оценить?</string>
+    <string name="rate_button">Оценить</string>
+    <string name="not_now_button">Не сейчас</string>
+</resources>

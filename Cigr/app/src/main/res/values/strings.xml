@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cigr</string>
+    <string name="dialog_cannot_stabilize_header">Warning</string>
+    <string name="dialog_cannot_stabilize_body">I could not stabilize the image.\nMaybe you were moving the camera.\nPlease try again.</string>
+    <string name="toast_cannot_focus">I can not get focus and get a beautiful picture.\nPlease try again.</string>
+    <string name="toast_video_to_short">The minimum duration of the video is 3 sec.\nPlease try again.</string>
+    <string name="press_back_again">Press back again to exit!</string>
+    <string name="button_next">Next</string>
+    <string name="button_back">Back</string>
+    <string name="button_save_to_galery">Save to galery button</string>
+
+    <string name="stabilize_exiting">Exiting</string>
+    <string name="dialog_permission_rationale_camera_text">Camera permission is required to make a "live photo". If you do not provide this permission, you will not be able to use the application.</string>
+    <string name="dialog_permission_rationale_file_text">Access to the phone\'s internal memory is necessary to save "live photos" to the gallery. You can send the video to social networks right away. For this, access is not required.</string>
+    <string name="dialog_permission_wrong_file_text">File permission  is required to save "live photos" to the gallery. You did not grant this permission.</string>
+    <string name="dialog_permission_wrong_camera_text">Camera permission is required to make a "live photo". Without this permission, work with the application is impossible.</string>
+    <string name="button_send_to_insta">Send to Instagram button</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_for_change_camera_front_and_back">Button for switching to the front and back camera.</string>
+    <string name="button_send_to_facebook">Send to facebook button</string>
+    <string name="tutorialText1">1. Record a short video (>3sec)</string>
+    <string name="tutorialText2">2. Your gadget stabilizes video.</string>
+    <string name="textNotTutorial2">Stabilizing…\nPlease wait</string>
+    <string name="tutorialText3">3. Select the areas you want to move</string>
+    <string name="tutorialText4">4. Save result to the gallery or share by Facebook or Instagram</string>
+    <string name="toast_result_video_succesfull">The video was successfully saved to the gallery.</string>
+    <string name="toast_result_video_error">Cannot save video to the gallery.</string>
+    <string name="toast_result_video_seem_file">\"Live photo\" has already been saved to the gallery.</string>
+
+    <string name="OK_button">OK</string>
+    <string name="exit_button">Exit</string>
+    <string name="reask_button">Reask</string>
+    <string name="begin_button">Begin</string>
+    <string name="close_button">Close</string>
+    <string name="tutorial_screenshot_1_context_description">Screenshot of 1 screen. Recording video.</string>
+    <string name="tutorial_screenshot_2_context_description">Screenshot of 2 screen. Stabilizing recorded video.</string>
+    <string name="tutorial_screenshot_3_context_description">Screenshot of 3 screen. Edit live photo.</string>
+    <string name="tutorial_screenshot_4_context_description">Screenshot of 4 screen. Sharing resulting live photo.</string>
+    <string name="text_tutorial_video_edit">Select moving part by finger</string>
+    <string name="dialog_ask_rewiew_play_market">Do you like my app?\nCan you rate it?</string>
+    <string name="rate_button">Rate</string>
+    <string name="not_now_button">Not now</string>
+</resources>
